@@ -1,0 +1,15 @@
+body {
+    font-family: 'VT323', monospace;
+    color: white;
+    background-color: #000009;
+}
+
+.bottombar {
+    position: absolute;
+    bottom: 4px;
+}
+
+#timestamp {
+    font-size: 4em;
+    text-align: right;
+}
