@@ -14,14 +14,15 @@
     
     <!--Just want to put a little revolving statue or something to give the page some presence. Maybe make clicking on it cycle through gifs-->
     <div id="mainfeature" onclick="switchImg()">
-        <img id="true" src="img/UnpleasantMeanBichonfrise-size_restricted.gif" alt="give up" style="display: none">
+        <img id="true" src="img/UnpleasantMeanBichonfrise-size_restricted.gif" alt="give up" >
         <img id="false" src="img/glzWdig.gif" alt="no end" width="500" height="474" style="display: none">
     </div>
 
-    <video autoplay muted loop>
-            <source src="vid/Overlay Old Film 2.mp4" type="video/mp4">
-            <source src="vid/VHS Blue Screen Intro [HD].mp4" type="video/mp4">
+    <video id="overlay" autoplay muted loop onclick="switchImg()">
             <source src="vid/VHS TRACKING GLITCH.mp4" type="video/mp4">
+            <source src="vid/VHS Blue Screen Intro [HD].mp4" type="video/mp4">    
+        <source src="vid/Overlay Old Film 2.mp4" type="video/mp4">
+            
     </video>
 
     <div class="bottombar">
